@@ -1,0 +1,17 @@
+package day0311;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		byte b = (byte)129;
+		System.out.println(b);
+		
+		long l = 50l;
+		int i = 40;
+		l = i;
+		i = l;
+	}
+
+}

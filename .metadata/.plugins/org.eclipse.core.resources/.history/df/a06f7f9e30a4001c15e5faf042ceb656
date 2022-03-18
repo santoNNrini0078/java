@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Var {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+
+
+	System.out.println("정수 값을 입력하시오.");
+	Scanner sc = new Scanner(System.in);
+	int a = sc.nextInt();
+	
+	if (a<0)
+	{
+		System.out.println(a*-1);
+	}
+	else
+	{
+		System.out.println(a);
+	}
+}
+}

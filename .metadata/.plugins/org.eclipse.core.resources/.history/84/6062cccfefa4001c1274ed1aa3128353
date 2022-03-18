@@ -1,0 +1,14 @@
+package example;
+
+public class Ex20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char y = (int)y;
+		char R = (int)R;
+		System.out.println(y);
+		
+	}
+
+}

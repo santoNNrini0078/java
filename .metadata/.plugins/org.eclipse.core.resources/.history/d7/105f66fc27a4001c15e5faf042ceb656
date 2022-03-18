@@ -1,0 +1,14 @@
+
+public class Na {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int python = 60, java = 70, android = 80, c = 50, cpp = 30;
+		int sum = python + java + android + c + cpp;
+		float avr = sum /5;
+		System.out.println("ÇÕ°è ="+sum);
+		System.out.println("Æò±Õ ="+avr);
+	}
+
+}

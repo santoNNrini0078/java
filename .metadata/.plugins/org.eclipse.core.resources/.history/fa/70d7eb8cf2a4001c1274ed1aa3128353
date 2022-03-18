@@ -1,0 +1,13 @@
+package example;
+
+public class Ex21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int value=sc.nextInt();
+		char value2 = (char)value;
+	}
+
+}

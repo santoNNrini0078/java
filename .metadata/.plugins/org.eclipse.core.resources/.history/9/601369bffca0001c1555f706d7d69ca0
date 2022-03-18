@@ -1,0 +1,15 @@
+package day0311;
+
+public class Char {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char c1 = 'a';
+		
+		char c3 = (char)(c1+1);
+		System.out.println(c3);
+		char c4 = ++c1;
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Ex21__ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int value = sc.nextInt();
+		int value2 = value -32;
+		System.out.println((char)value2);
+	}
+
+}

@@ -1,0 +1,16 @@
+package example;
+
+public class Ex20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char y = 'y';
+		char R = 'R';
+		
+		System.out.println((int)y-32);
+		System.out.println((int)R+32);
+		
+	}
+
+}

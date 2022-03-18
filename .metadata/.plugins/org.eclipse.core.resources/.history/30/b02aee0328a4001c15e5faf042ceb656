@@ -1,0 +1,16 @@
+
+public class Na {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int python = 60, java = 70, android = 80, c = 50, cpp = 30;
+		int sum = python + java + android + c + cpp;
+		float avr = sum /5;
+		System.out.println("합계 ="+sum);
+		System.out.println("평균 ="+avr);
+		
+		System.out.printf("나잘난의 성적 총합계는 %d 입니다. 평균은 %d 입니다",sum,avr);
+	}
+
+}

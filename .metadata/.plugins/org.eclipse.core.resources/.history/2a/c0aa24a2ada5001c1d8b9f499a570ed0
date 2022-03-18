@@ -1,0 +1,25 @@
+
+public class Ex37 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num = 0;
+		num++;
+		System.out.println("알의 수" +num); //월
+		
+		num++;
+		System.out.println("알의 수" +num); //화
+		
+		num++;
+		System.out.println("알의 수" +num); //수
+		
+		num++;
+		System.out.println("알의 수" +num); //목
+		
+		num++;
+		System.out.println("알의 수" +num); //금
+		
+	}
+
+}
