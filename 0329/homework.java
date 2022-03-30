@@ -94,18 +94,18 @@ public class homework {
 		
 		int w= 1;
 		int[][] q;
-		q=new int[9][9];
+		q=new int[5][5];
 		for(int i=0; i<5; i++)
 		{
 			
-			for(int j=0; j<5; j++)
+			for(int j=i; j<5; j++)
 			{
-				q[i][4-j]=w++;
-				System.out.print(q[i][j]+"\t");
+				q[i][j]=w++;
+				System.out.printf("q[%d][%d] = %d\t",i,j,q[i][j]);				
 			}
+			
 			System.out.println();
 		}
-		
 		
 	}
 
