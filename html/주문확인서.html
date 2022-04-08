@@ -1,0 +1,55 @@
+<!doctype>
+<html lang="ko">
+<head>
+	<title>상품주문서</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<h1>상품 주문서</h1>
+	<form action="#" method="post">
+	<fieldset>
+		<legend>개인 정보</legend>
+		<ul>
+			<li>
+				<label>이름 : <input type="text" placeholder="여백없이 입력" required id="user_in"/></label>
+			</li>
+			<li>
+				<label>연락처 : <input type="tel" placeholder="연락가능한 번호" required id="tel"/></label>
+			</li>			
+		</ul>
+	</fieldset>
+	
+	<fieldset>
+		<legend>배송지 정보</legend>
+		<ul>
+			<li>
+				<label>주소 : <input type="text" required size="40" id="address"/></label>
+			</li>
+			<li>
+				<label>전화번호 : <input type="tel" required id="user_tel"/></label>
+			</li>
+			<li>
+				<label>메모: <input type="text" size="60" id="user_pw"/></label>
+			</li>
+		</ul>
+	</fieldset>
+	
+	<fieldset>
+		<legend>주문 정보</legend>
+		<ul>
+			<li>
+				<label><input type="checkbox" value="1"/>과테말라 안티구아 (100g)<input type="number" min="0" value="0" />개</label>
+			</li>
+			<li>
+				<label><input type="checkbox" value="1"/>인도네시아 만델링 (100g)<input type="number" min="0" value="0" />개</label>
+			</li>
+			<li>
+				<label><input type="checkbox" value="1"/>탐라는도다(블렌딩) (100g)<input type="number" min="0" value="0" />개</label>
+			</li>			
+		</ul>
+	</fieldset>
+	<input type="submit" value="주문하기"/>
+	<input type="reset" value="다시작성"/></label>
+</form>
+</body>
+</html>
