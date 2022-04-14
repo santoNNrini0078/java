@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<title>마켓컬리 회원가입</title>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<header><h1>회원가입</h1></header>
+
+<form action="#" method="post">
+<table border ="1">
+<caption>마켓컬리 회원가입</caption>
+*필수입력사항
+	<tr>
+		<td> 아이디* </td>
+		<td> <input type="text" placeholder="6자 이상의 영문 혹은 영문과 숫자를 조합" required size="20" required id="user_in"/> </td>
+		<td> <input type="submit" value="중복확인"/> </td>
+	</tr>
+	
+	<tr>
+		<td> 비밀번호* </td>
+		<td> <input type="password" placeholder="비밀번호를 입력해주세요" required size="20" required id="user_in"/> </td>
+	</tr>
+	
+	<tr>
+		<td> 비밀번호확인* </td>
+		<td> <input type="password" placeholder="비밀번호를 한번 더 입력해주세요" required size="20" required id="user_in"/> </td>
+	</tr>
+	
+	<tr>
+		<td> 이름* </td>
+		<td> <input type="text" placeholder="이름을 입력해주세요" required size="20" required id="user_in"/> </td>
+	</tr>
+	<tr>
+		<td> 이메일* </td>
+		<td> <input type="email" placeholder="예:marketkurly@kurly.com" required size="20" required id="user_in"/> </td>
+		<td> <input type="submit" value="중복확인"/> </td>
+	</tr>
+	<tr>
+		<td> 휴대폰* </td>
+		<td> <input type="tel" placeholder="숫자만 입력해주세요" required size="20" required id="user_tel"/> </td>
+		<td> <input type="submit" value="인증번호 받기"/> </td>
+	</tr>
+	<tr>
+		<td> 주소* </td>
+		
+		<td> <input type="submit" value="주소검색"/> </td>
+	</tr>
+	<tr>
+		<td> 성별 </td>
+		<td> <label><input type="radio" name="m"/>남자
+		<input type="radio" name="f"/>여자
+		<input type="radio" name="n"/>선택안함</label> </td>
+	</tr>
+	<tr>
+		<td> 생년월일 </td>
+		<td> <input type="text" placeholder="YYYY / MM / DD" required size="20" required id="user_in"/> </td>
+	</tr>
+	<tr>
+		<td> 추가입력 사항 </td>
+		<td> <label><input type="radio" name="chu"/>추천인아이디
+		<input type="radio" name="event"/>참여 이벤트명 </td>
+	</tr>
+	
+</table></form>
+</body>
+</html>
